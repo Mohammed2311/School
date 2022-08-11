@@ -1,0 +1,30 @@
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.csproj.AssemblyReference.cache
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.AssemblyInfoInputs.cache
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.AssemblyInfo.cs
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.csproj.CoreCompileInputs.cache
+C:\Users\ccc\source\repos\School\School.BL\bin\Debug\net6.0\School.BL.deps.json
+C:\Users\ccc\source\repos\School\School.BL\bin\Debug\net6.0\School.BL.dll
+C:\Users\ccc\source\repos\School\School.BL\bin\Debug\net6.0\School.BL.pdb
+C:\Users\ccc\source\repos\School\School.BL\bin\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\source\repos\School\School.BL\bin\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.csproj.CopyComplete
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.dll
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\refint\School.BL.dll
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\School.BL.pdb
+C:\Users\ccc\source\repos\School\School.BL\obj\Debug\net6.0\ref\School.BL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\bin\Debug\net6.0\School.BL.deps.json
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\bin\Debug\net6.0\School.BL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\bin\Debug\net6.0\School.BL.pdb
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\bin\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\bin\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.csproj.AssemblyReference.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.AssemblyInfoInputs.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.AssemblyInfo.cs
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.csproj.CoreCompileInputs.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.csproj.CopyComplete
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\refint\School.BL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\School.BL.pdb
+C:\Users\ccc\Desktop\New folder (11)\School\School.BL\obj\Debug\net6.0\ref\School.BL.dll

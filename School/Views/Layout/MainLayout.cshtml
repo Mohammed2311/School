@@ -1,0 +1,71 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>@ViewBag.Title</title>
+    
+    <!-- Bootstrap Core Css -->
+    <link href="~/bootstrap/css/bootstrap.min.css"/>
+
+    
+
+   
+</head>
+
+<body >
+    
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" asp-controller = "Home" asp-action = "index">School</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-action="index" asp-controller="Teacher">Teacher</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+ 
+   
+       
+
+    <section class="content">
+        <div class="container-fluid">
+             @RenderBody()
+        </div>
+    </section>
+   
+    
+    <!-- Jquery Core Js -->
+    
+   
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Bootstrap Core Js -->
+
+    <!-- Select Plugin Js -->
+    @RenderSection("Mohammed",required:false)
+
+    
+   
+</body>
+</html>

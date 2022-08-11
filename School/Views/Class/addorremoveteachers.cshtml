@@ -1,0 +1,96 @@
+﻿@model List<School.BL.Models.TeacherInClassVm>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    var classId = ViewBag.classId;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" asp-controller="Home"  asp-action="index">Student</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" asp-controller="Teacher" asp-action="index">Teacher</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Class" asp-action="index">Class</a>
+        </li>
+       
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<form method="post" class="form-group">
+
+    <div class="card-header">
+        <h2>Add Or Remove Teachers To Class</h2>
+    </div>
+
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+         <div class="form-check">
+        <input asp-for="@Model[i].IsSelected" type="checkbox" class="filled-in form-check-input">
+        <label asp-for="@Model[i].IsSelected" class="filled-in form-check-label">@Model[i].TeacherName</label>
+
+        <input type="hidden" asp-for="@Model[i].TeacherId" />
+        <input type="hidden" asp-for="@Model[i].TeacherName" />
+      </div>
+
+        
+
+    }
+
+    <div class="card-footer">
+        <input type="submit" value="Add Teacher" class="btn btn-primary" />
+    </div>
+
+
+</form>
+    <br />
+
+<a asp-controller="Class" asp-action="Update" class="btn btn-warning" asp-route-id="@classId">Cancle</a>
+
+
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.js"></script>
+    <script src="~/jquery/jquery.min.js"></script>
+    <script src = "~/jquery-validate/jquery.validate.min.js"></script>
+    <script src ="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+</body>
+</html>
+   
+
+
+
+
+
+
+@*<a asp-controller="class" asp-action="update" asp-route-id="@classId">Cancle</a>
+*@

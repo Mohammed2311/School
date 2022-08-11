@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.2.0",
+      "destination": "wwwroot/bootstrap/",
+      "files": [
+        "js/bootstrap.min.js",
+        "css/bootstrap.min.css",
+        "css/bootstrap.css",
+        "js/bootstrap.js",
+        "js/bootstrap.bundle.min.js"
+      ]
+    },
+    {
+      "library": "bootswatch@5.2.0",
+      "destination": "wwwroot/bootswatch/",
+      "files": [
+        "cerulean/bootstrap.min.css"
+      ]
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/jquery/",
+      "files": [
+        "jquery.min.js"
+      ]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@4.0.0",
+      "destination": "wwwroot/jquery-validation-unobtrusive/",
+      "files": [
+        "jquery.validate.unobtrusive.min.js"
+      ]
+    },
+    {
+      "library": "jquery-validate@1.19.5",
+      "destination": "wwwroot/jquery-validate/",
+      "files": [
+        "jquery.validate.min.js"
+      ]
+    },
+    {
+      "library": "axios@0.27.2",
+      "destination": "wwwroot/axios/",
+      "files": [
+        "axios.min.js",
+        "axios.js"
+      ]
+    }
+  ]
+}

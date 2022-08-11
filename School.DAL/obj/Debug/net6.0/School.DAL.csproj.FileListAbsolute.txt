@@ -1,0 +1,28 @@
+C:\Users\ccc\source\repos\School\School.DAL\bin\Debug\net6.0\School.DAL.deps.json
+C:\Users\ccc\source\repos\School\School.DAL\bin\Debug\net6.0\School.DAL.runtimeconfig.json
+C:\Users\ccc\source\repos\School\School.DAL\bin\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\source\repos\School\School.DAL\bin\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.csproj.AssemblyReference.cache
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.AssemblyInfoInputs.cache
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.AssemblyInfo.cs
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\refint\School.DAL.dll
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\School.DAL.genruntimeconfig.cache
+C:\Users\ccc\source\repos\School\School.DAL\obj\Debug\net6.0\ref\School.DAL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\bin\Debug\net6.0\School.DAL.deps.json
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\bin\Debug\net6.0\School.DAL.runtimeconfig.json
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\bin\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\bin\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.csproj.AssemblyReference.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.AssemblyInfoInputs.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.AssemblyInfo.cs
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\refint\School.DAL.dll
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.pdb
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\School.DAL.genruntimeconfig.cache
+C:\Users\ccc\Desktop\New folder (11)\School\School.DAL\obj\Debug\net6.0\ref\School.DAL.dll

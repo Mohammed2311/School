@@ -1,0 +1,75 @@
+﻿@model School.BL.Models.TeacherVm
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" asp-controller="Home"  asp-action="index">Student</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" asp-controller="Teacher" asp-action="index">Teacher</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Class" asp-action="index">Class</a>
+        </li>
+       
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+<h2>Create Teacher</h2>
+
+
+<form asp-action="Create" asp-controller="Teacher" class="form-group">
+
+    <div asp-validation-summary="All" class="text-danger">   </div>
+    <label class="form-control" asp-for="Name">Teacher Name</label>
+    <input id="Name" asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label class="form-control" asp-for="Age">Age</label>
+    <input id="Code" asp-for="Age" class="form-control" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+    <br /><br />
+    <br />
+    <label class="form-control" asp-for="Salary">Salary</label>
+    <input id="Code" asp-for="Salary" class="form-control" />
+    <span asp-validation-for="Salary" class="text-danger"></span>
+   
+    <br /><br />
+    <input type="submit" value="Save" class="btn btn-primary" />
+</form>
+
+
+
+    <script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/bootstrap/js/bootstrap.js"></script>
+    <script src="~/jquery/jquery.min.js"></script>
+    <script src = "~/jquery-validate/jquery.validate.min.js"></script>
+    <script src ="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+</body>
+</html>
+   
